@@ -23,8 +23,8 @@ set style line  4 linewidth 2 linetype 8 pointtype 3 dashtype 1
 
 ## Draw plot
 set logscale x 10
-set yrange [0:]
-set ytics 0.2
+set yrange [0.5:1]
+set ytics 0.1
 set xlabel  '{/:Bold Batch fraction}'
 set ylabel  '{/:Bold Modularity}'
 plot '8020.csv' \

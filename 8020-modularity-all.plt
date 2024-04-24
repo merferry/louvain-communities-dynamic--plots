@@ -13,8 +13,8 @@ set lmargin 4.5
 set tmargin 1
 unset xtics
 set logscale x 10
-set yrange [0:]
-set ytics 0.2
+set yrange [0.5:1]
+set ytics 0.1
 set format x "10^{%L}"
 set grid   y
 set key off
